@@ -1,0 +1,7 @@
+SELECT cdb_extension_fw.bar();
+NOTICE:  bar
+ bar 
+-----
+ 
+(1 row)
+

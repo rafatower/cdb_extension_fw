@@ -1,0 +1,7 @@
+SELECT cdb_extension_fw.foo();
+NOTICE:  foo
+ foo 
+-----
+ 
+(1 row)
+
