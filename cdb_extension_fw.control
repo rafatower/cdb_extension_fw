@@ -1,5 +1,5 @@
 # An extension to test some concepts
 comment = 'A dummy extension to test some concepts'
-default_version = 'master'
+default_version = 'current'
 relocatable = false
 schema = cdb_extension_fw
