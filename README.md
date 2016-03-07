@@ -14,3 +14,8 @@
 * The developer is responsible for ensuring upgrade/downgrade paths work (?)
 * The extension shall not create any global object, such as roles or tablespaces
 * Cannot package data/config, just functions
+
+## Basic usage
+```
+sudo PGUSER=postgres make install installcheck
+```
