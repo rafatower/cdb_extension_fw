@@ -1,5 +1,7 @@
 EXTENSION = cdb_extension_fw
-DATA = cdb_extension_fw--current.sql
+DATA = cdb_extension_fw--current.sql \
+	   cdb_extension_fw--current--dev.sql \
+	   cdb_extension_fw--dev--current.sql
 
 SOURCES_DATA_DIR = src/sql/src
 SOURCES_DATA = $(wildcard $(SOURCES_DATA_DIR)/*.sql)
